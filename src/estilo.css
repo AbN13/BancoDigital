@@ -1,0 +1,63 @@
+.root {
+    -fx-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -fx-background-color: #F5F5F7;
+}
+
+.label {
+    -fx-font: bold 24px "Helvetica Neue";
+    -fx-text-fill: #1D1D1F;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #D1D1D6;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 8, 0, 0, 4);
+    -fx-font-size: 14px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #E5E5EA;
+    -fx-background-radius: 12px 12px 0 0;
+}
+
+.table-view .column-header, 
+.table-view .filler {
+    -fx-size: 36px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 6px;
+    -fx-font-size: 14px;
+}
+
+.table-view .table-row-cell:filled:hover {
+    -fx-background-color: #DCE1E8;
+    -fx-cursor: hand;
+}
+
+.table-view .table-cell {
+    -fx-padding: 8px;
+}
+
+.table-column {
+    -fx-alignment: CENTER-LEFT;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #C0C0C0;
+    -fx-background-insets: 2;
+    -fx-background-radius: 8px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #A0A0A0;
+}
