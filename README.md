@@ -28,8 +28,8 @@ git clone https://github.com/AbN13/BancoDigital.git
 
 4. Garanta que o arquivo banco.db está na raiz com as tabelas contas e transacoes criadas
 
-🧠 Autor
-Desenvolvido por Abner Leandro Gonçalves, com ajuda do ChatGPT, em um bootcamp de programação.
+👨‍💻 **Autor**  
+Desenvolvido por Abner Leandro Gonçalves, com a ajuda do ChatGPT, em um bootcamp de programação.  
 Projeto criado com muito esforço, persistência e foco em qualidade visual e funcional.
 
-"Feito pra parecer coisa de gente grande, porque é." 😎
+> _"Feito pra parecer coisa de gente grande, porque é."_ 😎
